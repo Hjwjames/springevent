@@ -1,9 +1,7 @@
 package com.example.springEvent.service;
 
 import com.example.springEvent.event.FaceEvent;
-import com.example.springEvent.listerner.AnnonationListener;
 import com.example.springEvent.pojo.User;
-import org.apache.catalina.core.ApplicationContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
